@@ -2,7 +2,7 @@
 
 namespace FiguresArea.Figure
 {
-    public class Triangle
+    public class Triangle:Interface.IFigure
     {
         private double FirstSide { get; set; }
         private double SecondSide { get; set; }
